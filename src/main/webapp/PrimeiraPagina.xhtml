@@ -3,18 +3,55 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://java.sun.com/jsf/core">
+	
 <h:head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Primeira Página</title>
 </h:head>
+
 <h:body>
 	<h1>Primeira Página JSF</h1>
 	<h:form>
-		
+		<h:panelGrid columns="2">
 			<h:outputText value="Nome" />
-			<h:inputText />			
+			<h:inputText />
+									
+			<h:outputText value="Senha" />
+			<h:inputSecret />
+			
+			<h:outputText value="Versão" />
+			<h:selectManyCheckbox>
+				<f:selectItem itemLabel="Java 8" itemValue="Java8"/>
+				<f:selectItem itemLabel="Java 9" itemValue="Java9"/>
+			</h:selectManyCheckbox>
+			
+			<h:outputText value="ComboBox" />
+			<h:selectOneMenu>
+				<f:selectItem itemLabel="Java 8" itemValue="Java8"/>
+				<f:selectItem itemLabel="Java 9" itemValue="Java9"/>
+			</h:selectOneMenu>
+			
+			<h:outputText value="SelectRadio" />
+			<h:selectOneRadio>
+				<f:selectItem itemLabel="Java 8" itemValue="Java8"/>
+				<f:selectItem itemLabel="Java 9" itemValue="Java9"/>
+			</h:selectOneRadio>
+			
+		<h:inputTextarea></h:inputTextarea>
+			
+			
+			
 			<h:commandButton value="Enviar" />
-		
+							
+			
+		</h:panelGrid>
 	</h:form>
+	
+	<h:form>
+		<h:button value="Segunda Pagina" action="SegundaPagina"/>				
+		<h:commandButton value = "Teste - Hello Wordl!" onclick = "alert('Hello World!');" /> 				
+	</h:form>
+	
 </h:body>
+
 </html>
