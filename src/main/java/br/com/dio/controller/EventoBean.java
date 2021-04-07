@@ -24,8 +24,13 @@ public class EventoBean implements Serializable {
 	public String adcionarEvento() {
 		eventos.add(evento);
 		System.out.println("Evento" + evento.getNome() + "cadastrado com sucesso!");
+		clear();
 		return "";
 	
+	}
+	
+	public void clear() {
+		this.evento = new Evento();
 	}
 
 	public Evento getEvento() {
