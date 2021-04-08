@@ -4,7 +4,7 @@
  
  🎓 Professora - Maisa Maximo Ferreira
  
- 1️⃣ - Aplicação web desenvolvido no Bootcamp Java Developer
+ 1️⃣ - Aplicação web desenvolvida no Bootcamp Java Developer
  
 ![Screenshot](https://github.com/Mayconfuzita86/JSP_meetapp/blob/main/src/main/webapp/resources/images/meetapp_tela.PNG)
 
