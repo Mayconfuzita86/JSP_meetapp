@@ -1,1 +1,76 @@
-@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#header{
+	width: 100%;
+	height: 15vh;
+	background-color: #f8f8f8;
+
+}
+
+#logo{
+	width: 250px;
+	
+}
+
+.semBorda tr, .semBorda td {
+	border: none !important; 
+}
+
+.formulario {
+	margin: 20px;
+	border: 1px solid #ffffff;
+}
+
+.form{
+	width: 40%;
+	border: 1px solid #ffffff;
+}
+
+#form table{
+	width: 100%;
+	border: 1px solid #ffffff;
+}
+
+#form table input{
+	border: 1px solid #9DD3AF;
+	box-shadow: none;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#form button {
+	background: none;
+	border: 2px solid #9DD3AF;
+	color: #9DD3AF;
+	border-radius: 50px;
+	width: 250px;
+}
+
+#table{
+	width: 80%;
+	border: none;
+}
+
+table th{
+	color: #FFF;
+	background: #9DD3AF;
+	text-shadow: none;
+	height: 30px;
+	box-shadow: none;
+}
+
+#tabe th, #table td {
+	border-color: #FFF;
+}
